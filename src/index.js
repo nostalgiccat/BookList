@@ -24,10 +24,7 @@ const Book = () => {
 };
 
 const Image = () => (
-  <img
-    src="https://m.media-amazon.com/images/I/818mrorIALL._SX342_.jpg"
-    alt="The psychology of money"
-  />
+  <img src="./images/book-1.jpg" alt="The psychology of money" />
 );
 
 const Title = () => {
