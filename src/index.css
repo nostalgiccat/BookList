@@ -29,6 +29,9 @@ body {
     padding: 2rem; 
     text-align: center; 
 }
+.book p {
+    margin: 1rem 0 0.5rem;
+}
 .book img {
     width: 100%;
     object-fit: cover;
