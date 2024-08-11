@@ -31,10 +31,15 @@ function BookList() {
 //Individual book component
 const Book = (props) => {
   const { img, title, author } = props;
+  const displayTitle = () => {
+    console.log(title);
+  };
+
   return (
     <article className="book">
       <img src={img} alt={title} />
       <h2>{title}</h2>
+      <button onClick={displayTitle}>display text</button>
       <h4>{author}</h4>
     </article>
   );
